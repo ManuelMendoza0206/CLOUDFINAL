@@ -2,7 +2,7 @@ name: Deploy Web to S3 NO
 
 on:
   push:
-    brance=hes: [main]
+    branches: [main]
     paths:
       - "app/**"
 
