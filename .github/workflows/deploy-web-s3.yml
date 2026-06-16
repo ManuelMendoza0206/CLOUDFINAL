@@ -21,4 +21,4 @@ jobs:
           aws-region: {{ secrets.AWS_REGION}}
 
       - name: Sincornizar archivos al bonito S3
-        run: aws s3 sync app/ s3://${{ screts.S3_BUCKET_WEB }}/ --exclude "Dockerfile" --exclude ".dockerignore" --delete
+        run: aws s3 sync app/ s3://${{ secrets.S3_BUCKET_WEB }}/ --exclude "Dockerfile" --exclude ".dockerignore" --delete
