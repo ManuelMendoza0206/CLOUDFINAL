@@ -14,6 +14,9 @@ const partidosEstaticos = [
   { id: "partido-004", fecha: "2026-06-14", local: "España", visitante: "Japón", estadio: "SoFi", grupo: "D" },
 ];
 
+
+
+
 const polerasLocales = [
   { archivo: "argentina.svg", pais: "Argentina" },
   { archivo: "brasil.svg", pais: "Brasil" },
